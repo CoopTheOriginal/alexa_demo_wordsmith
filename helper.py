@@ -157,8 +157,8 @@ def __send_email(info_dict):
     email_text = info_dict['narrative'] + '\n' + 'View your Spotfire dashboard here: ' + info_dict['url']
     url = 'https://api.mailgun.net/v3/sandbox7df9a80a5985432b8d4050cd52360101.mailgun.org/messages'
     auth = ('api', os.environ['MAILGUN'])
-    data = {'to': os.envrion['TO_EMAIL'],
-            'from': os.envrion['FROM_EMAIL'],
+    data = {'to': os.environ['TO_EMAIL'],
+            'from': os.environ['FROM_EMAIL'],
             'subject': email_subject,
             'text': email_text,
             'html': build_html_version(info_dict)}
