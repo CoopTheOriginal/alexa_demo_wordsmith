@@ -1,0 +1,17 @@
+welcome: Welcome to TIBCO Spotfire! Which state would you like information about?
+
+reprompt: I didn't quite get that. Would you please repeat that?
+
+followup: Would you like more information about this state?
+
+confirmation1: Okay, a copy of the full summary accompanied with your Spotfire data visualization are waiting for you in your inbox. What state would you like to hear about next?
+
+confirmation2: Okay, what state would you like to hear about next?
+
+nostate: Okay, which state did you want that email for?
+
+reprompt_email: I didn't quite get that. Would you like me to send a follow up email with a more in-depth analysis?
+
+reprompt_state: I'm sorry, I didn't quite get that. What state would you like more information about?
+
+goodbye: Good day, master!
